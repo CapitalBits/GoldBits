@@ -1,5 +1,5 @@
 ---
-name: "bitcoin-deps"
+name: "goldbit-deps"
 suites:
 - "precise"
 architectures:
@@ -11,7 +11,7 @@ packages:
 - "zip"
 - "faketime"
 - "psmisc"
-reference_datetime: "2011-01-30 00:00:00"
+reference_datetime: "2014-01-30 00:00:00"
 remotes: []
 files:
 - "openssl-1.0.1h.tar.gz"
@@ -98,4 +98,4 @@ script: |
   cd ..
   #
   cd $INSTALLPREFIX
-  zip -r $OUTDIR/bitcoin08-deps-win32-gitian-r11.zip include lib
+  zip -r $OUTDIR/goldbit08-deps-win32-gitian-r11.zip include lib

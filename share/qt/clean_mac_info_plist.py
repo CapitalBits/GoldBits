@@ -6,13 +6,13 @@
 from string import Template
 from datetime import date
 
-bitcoinDir = "./";
+goldbitDir = "./";
 
-inFile     = bitcoinDir+"/share/qt/Info.plist"
-outFile    = "Litecoin-Qt.app/Contents/Info.plist"
+inFile     = goldbitDir+"/share/qt/Info.plist"
+outFile    = "Goldbit-Qt.app/Contents/Info.plist"
 version    = "unknown";
 
-fileForGrabbingVersion = bitcoinDir+"bitcoin-qt.pro"
+fileForGrabbingVersion = goldbitDir+"goldbit-qt.pro"
 for line in open(fileForGrabbingVersion):
 	lineArr = line.replace(" ", "").split("=");
 	if lineArr[0].startswith("VERSION"):
