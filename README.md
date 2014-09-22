@@ -12,7 +12,7 @@ What is Goldbits?
 Goldbits is a payment technology based on Litecoin and Bitcoin.
 
 For more information, as well as an immediately useable, binary version of
-the Goldbits wallet client sofware, see http://www.goldbits.com.
+the Goldbits wallet client sofware, see http://www.goldbits.com/wallets.
 
 License
 -------
