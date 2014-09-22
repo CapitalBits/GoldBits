@@ -1,30 +1,23 @@
-GoldBit integration/staging tree
+Goldbits integration/staging tree
 ================================
 
-http://www.goldbits.org
+http://www.goldbits.com
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 GoldBit Developers
+Copyright (c) 2011-2014 Unseen ehf
 
-What is GoldBit?
+What is Goldbits?
 ----------------
 
-GoldBit is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
-
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+Goldbits is a payment technology based on Litecoin and Bitcoin.
 
 For more information, as well as an immediately useable, binary version of
-the GoldBit client sofware, see http://www.goldbits.com.
+the Goldbits wallet client sofware, see http://www.goldbits.com.
 
 License
 -------
 
-GoldBit is released under the terms of the MIT license. See `COPYING` for more
+Goldbits is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -33,7 +26,7 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the GoldBit
+If it is a simple/trivial/non-controversial change, then one of the Goldbits
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -45,8 +38,8 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/goldbit-project/goldbit/tags) are created
-regularly to indicate new official, stable release versions of GoldBit.
+completely stable. [Tags](https://github.com/CapitalBits/GoldBits/tags) are created
+regularly to indicate new official, stable release versions of Goldbits.
 
 Testing
 -------
@@ -69,5 +62,5 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./goldbit-qt_test
+    ./goldbits-qt_test
 
